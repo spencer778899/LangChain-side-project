@@ -34,7 +34,9 @@
     "@types/cors": "^2.8.13",
     "@types/node": "20.1.0",
     "@types/react": "18.2.6",
+    "eslint": "^8.51.0",
     "express-sse": "^0.5.3",
+    "prettier": "^2.8.8",
     "typescript": "5.0.4"
   }
 }
