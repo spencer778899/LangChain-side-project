@@ -124,7 +124,7 @@ export default async function handler(req, res) {
         console.log({ transcriptResponse });
 
         // We can see that it's a big array of lines. Let's squish it down into one string first to make it easier to use.
-
+        x;
         // We initialize the transcript string
         let transcript = "";
 

@@ -17,7 +17,7 @@ import TwoColumnLayout from "../components/TwoColumnLayout";
 const VideoChat = () => {
   // We'll set a default YouTube video so we don't have to copy and paste this every time
   const [prompt, setPrompt] = useState(
-    "https://www.youtube.com/watch?v=0lJKucu6HJc"
+    "https://www.youtube.com/watch?v=lStXNmpfQ1M"
   );
   const [error, setError] = useState(null);
   const [firstMsg, setFirstMsg] = useState(true);
@@ -59,6 +59,7 @@ const VideoChat = () => {
       }
 
       const searchRes = await response.json();
+      console.log("test", searchRes);
 
       // Push the response into the messages array
       setMessages((prevMessages) => [
